@@ -42,7 +42,7 @@ configuration:
         textHighlight: "#b3aa0288"
 plugins:
   - source: "@quartz-community/created-modified-date"
-    enabled: true
+    enabled: false
     options:
       defaultDateType: modified
       priority:
@@ -175,6 +175,8 @@ plugins:
     layout:
       position: beforeBody
       priority: 20
+    options:
+      showReadingTime: false
   - source: "@quartz-community/tag-list"
     enabled: false
     layout:
@@ -192,7 +194,7 @@ plugins:
       priority: 30
       group: toolbar
   - source: "@quartz-community/reader-mode"
-    enabled: true
+    enabled: false # only disables graph at the moment; not worth the clutter
     layout:
       position: left
       priority: 35
@@ -223,7 +225,7 @@ plugins:
       position: afterBody
       priority: 10
   - source: "@quartz-community/footer"
-    enabled: true
+    enabled: false
     options:
       links:
         GitHub: https://github.com/jackyzha0/quartz
