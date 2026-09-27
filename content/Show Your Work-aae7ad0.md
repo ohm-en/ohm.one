@@ -1,7 +1,6 @@
 ---
 title: Show Your Work
 unlisted: true
-permalink: show-your-work-aae7ad0
 ---
 
 Writing can be a form of thinking. More so, it captures your thoughts so you may disagree with your own process. It's easy to forget the many thoughts of the day, but the written word remains.
