@@ -1,6 +1,7 @@
 ---
 title: index
 created: 2026-09-22 16:31 1790112672
+comments: false
 unlisted: false
 ---
 Welcome to an exploratory wiki: a public site which aims to broaden our perspective through connected scribbles.

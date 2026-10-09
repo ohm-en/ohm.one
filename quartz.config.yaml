@@ -206,14 +206,14 @@ plugins:
       priority: 5
       condition: not-index
   - source: "@quartz-community/comments"
-    enabled: false
+    enabled: true
     options:
       provider: giscus
       options:
-        repo: TODO:username/repo-name
-        repoId: TODO:your-repo-id
+        repo: ohm-en/ohm.one
+        repoId: R_kgDOMrFw0Q
         category: Announcements
-        categoryId: TODO:your-category-id
+        categoryId: DIC_kwDOMrFw0c4DHc4V
         mapping: url
         strict: true
         reactionsEnabled: true
